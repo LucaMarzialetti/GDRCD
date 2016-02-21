@@ -38,14 +38,14 @@ overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
 left: 210px; /*Set left value to WidthOfLeftFrameDiv*/
 right: 0;
 width: auto;
-height: 100px; /*Height of top frame div*/
+height: auto; /*Height of top frame div*/
 overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
 }
 
 #maincontent{
 position: fixed; 
 left: 210px; /*Set left value to WidthOfLeftFrameDiv*/
-top: 100px !important; /*Set top value to HeightOfTopFrameDiv*/
+top: 80px !important; /*Set top value to HeightOfTopFrameDiv*/
 right: 0;
 bottom: 0;
 overflow: auto; 
@@ -89,7 +89,7 @@ width: 100%;
 				{
 					echo '<div class="'.$box['class'].'">';
 				
-					gdrcd_load_modules('pages/'.$box['page'].'.inc.php');
+					gdrcd_load_modules('pages/'.$box['page'].'.inc.php', $box);
 				
 					echo '</div>';
 				}
@@ -120,7 +120,7 @@ width: 100%;
 				{
 					echo '<div class="'.$box['class'].'">';
 					
-					gdrcd_load_modules('pages/'.$box['page'].'.inc.php');
+					gdrcd_load_modules('pages/'.$box['page'].'.inc.php', $box);
 				
 					echo '</div>';
 				
