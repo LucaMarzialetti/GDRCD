@@ -174,6 +174,10 @@ div.messaggio_forum_nuovo a, div.messaggio_forum_nuovo a:visited{
 	color:#111;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 /** * Men� di gioco
 */
 select#gotomap{
@@ -221,6 +225,13 @@ div.link_menu a.sprite {
 	height: 50px;
 	background: no-repeat top left;
 }
+<<<<<<< HEAD
+=======
+
+div.link_menu a.sprite:hover {
+	background-position: 0 100%;
+}
+>>>>>>> origin/master
 
 div.link_menu a.sprite:hover {
 	background-position: 0 100%;
